@@ -278,7 +278,7 @@
                         $referenceBooksLength=count($referenceBooks);
                         $randomStartBrowsingIndex=rand(0,$referenceBooksLength-1);
                         $chosenAmount=0;
-                        
+                        $books = array();
                         
                         foreach(array_unique($genreList) as $au)
                             {
@@ -301,22 +301,45 @@
                                                 $chosenAmount += 1;
                                                 $thisChosenAmount += 1;
 
-                                                echo "<div class=\"col\">\n";
-                                                echo "<div class=\"card\">\n";        
-                                                echo "<div class=\"card-body\">\n";
-                                                echo "<h4 class=\"card-title\"  style=\"color: var(--bs-gray-dark);\">{$BName}</h4>\n";
-                                                echo "<h6 class=\"text-muted card-subtitle mb-2\"  style=\"color: var(--bs-gray-dark);\">{$BGenre}</h6>\n";
-                                                echo "<p class=\"card-text\"  style=\"color: var(--bs-gray-dark);\">{$BDescription}</p>\n";
-                                                echo "</div>\n";
-                                                echo "</div>\n";
-                                                echo "</div>\n";
+                                                $books[] = array(
+                                                    'title'          => (string)$BName,
+                                                    'genre'          => (string)$BGenre,
+                                                    'description'    => (string)$BDescription,
+                                                   );
+
+                                                
 
                                             }
                                         }
                                     
                             }
+                        
+                        array_multisort(array_column($books, 'genre'), SORT_ASC, $books);
+                        foreach ($books as $node)
+                            {
+                                
+                                $BName = $node['title'];
+                                $BGenre = $node['genre'];
+                                $BDescription = $node['description'];
+                                
 
 
+                                
+
+                                    echo "<div class=\"col\">\n";
+                                    echo "<div class=\"card\">\n";        
+                                    echo "<div class=\"card-body\">\n";
+                                    echo "<h4 class=\"card-title\" style=\"color: var(--bs-gray-dark);\">{$BName}</h4>\n";
+                                    echo "<h6 class=\"text-muted card-subtitle mb-2\" style=\"color: var(--bs-gray-dark);\">{$BGenre}</h6>\n";
+                                    echo "<p class=\"card-text\" style=\"color: var(--bs-gray-dark);\">{$BDescription}</p>\n";
+                                    echo "</div>\n";
+                                    echo "</div>\n";
+                                    echo "</div>\n";
+
+                                
+                                
+                            }
+                        
                     ?>
             </div>
         </div>
