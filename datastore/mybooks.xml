@@ -1,2 +1,128 @@
-<?xml version="1.0"?>
-<Bookstore><Book><ID>200</ID><Title>Kingof Bafoons</Title><Genre>Mystery</Genre><Description>Biggest Idiot</Description><ReadState>Reading</ReadState><FavoriteState>yes</FavoriteState><OptionalImage>1234567890</OptionalImage></Book><Book><ID>203</ID><Title>Patil Arc</Title><Genre>Fantasy</Genre><Description>1234567890</Description><ReadState>Reading</ReadState><FavoriteState>no</FavoriteState><OptionalImage>1234567890</OptionalImage></Book><Book><ID>204</ID><Title>God Killer</Title><Genre>Epic Fantasy</Genre><Description>Very strong guy killing people</Description><ReadState>Read</ReadState><FavoriteState>yes</FavoriteState><OptionalImage>1234567890</OptionalImage></Book><Book><ID>205</ID><Title>Godlin Eater</Title><Genre>Epic Fantasy</Genre><Description>Wagyu Flavored Goblin???</Description><ReadState>Reading</ReadState><FavoriteState>yes</FavoriteState><OptionalImage>1234567890</OptionalImage></Book><Book><ID>205</ID><Title>Story of Voodoo Chicken</Title><Genre>Horror</Genre><Description>So good you'll lose your soul???</Description><ReadState>Reading</ReadState><FavoriteState>yes</FavoriteState><OptionalImage>1234567890</OptionalImage></Book></Bookstore>
+<Bookstore>
+  <Book>
+      <ID>200</ID>
+      <Title>King Of Buffoons</Title>
+      <Genre>Comedy</Genre>
+      <Description>Born to circus folk who prefer trapezing over parenting, Felix quickly learns to turn life's misfortunes into jokes.</Description>
+      <ReadState>Reading</ReadState>
+      <FavoriteState>yes</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>203</ID>
+      <Title>Patil Arc</Title>
+      <Genre>Fantasy</Genre>
+      <Description>A mysterious request from the King sends him racing back to the city he destroyed.0</Description>
+      <ReadState>Reading</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>204</ID>
+      <Title>God Killer</Title>
+      <Genre>Epic Fantasy</Genre>
+      <Description>Kissen kills gods for a living, and she enjoys it. That is until she finds a god she cannot kill: Skediceth, god of white lies.</Description>
+      <ReadState>Read</ReadState>
+      <FavoriteState>yes</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>205</ID>
+      <Title>Godlin Eater</Title>
+      <Genre>Epic Fantasy</Genre>
+      <Description>On the edge of a little village, Remy discovers that a special breed of goblin;s meat is Wagyu flavored</Description>
+      <ReadState>ToBeRead</ReadState>
+      <FavoriteState>yes</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>205</ID>
+      <Title>Story of Voodoo Chicken</Title>
+      <Genre>Horror</Genre>
+      <Description>What happens when a wife puts a curse on chiekcn that's so good you'll lose your soul???</Description>
+      <ReadState>Read</ReadState>
+      <FavoriteState>yes</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>206</ID>
+      <Title>The Soul of a New Machine</Title>
+      <Genre>Computer</Genre>
+      <Description>The Soul of a New Machine carefully recounts the drama, comedy, and excitement of the early years of computers</Description>
+      <ReadState>ToBeRead</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>207</ID>
+      <Title>Superintelligence: Paths, Dangers, Strategies</Title>
+      <Genre>Computer</Genre>
+      <Description>As Hollywood has been asking for years, what happens when machines surpass humans in general intelligence?</Description>
+      <ReadState>ToBeRead</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>208</ID>
+      <Title>The Alchemist</Title>
+      <Genre>Fiction</Genre>
+      <Description>Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined.</Description>
+      <ReadState>Reading</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>209</ID>
+      <Title>Lights Out</Title>
+      <Genre>Fiction</Genre>
+      <Description>When an EMP devastates the nation's power supply, it doesn't take long for society to spiral out of control. There is no government to guide people.</Description>
+      <ReadState>Reading</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>210</ID>
+      <Title>How to Be Perfect</Title>
+      <Genre>Comedy</Genre>
+      <Description>Schur uses humor to invite in the reader and disarm them into what feels like a conversation about ethics, and they leave feeling pretty good about themselves</Description>
+      <ReadState>Read</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>211</ID>
+      <Title>Eating Salad Drunk</Title>
+      <Genre>Comedy</Genre>
+      <Description>It’s Twitter minus the toxicity and crushing relentlessness and instead more art, finesse, and precision.</Description>
+      <ReadState>Read</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>212</ID>
+      <Title>Hyperion</Title>
+      <Genre>Modern</Genre>
+      <Description>On the world called Hyperion, beyond the reach of galactic law, waits a creature called the Shrike. There are those who worship it.</Description>
+      <ReadState>Read</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>213</ID>
+      <Title>2am thoughts</Title>
+      <Genre>Philosophy</Genre>
+      <Description>This was a journey of nostalgia. I was swept up in memories of first love, first heartbreak, and healing, all within the span of one evening. </Description>
+      <ReadState>ToBeRead</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>213</ID>
+      <Title>Godsfall Chronicle</Title>
+      <Genre>Fiction</Genre>
+      <Description>Cloudhawk was a young scavenger who dreamed of being as free as the hawks in the skies, yet seemed destined to live out his life scrounging for scraps in the wasteland ruins.</Description>
+      <ReadState>Reading</ReadState>
+      <FavoriteState>no</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+</Bookstore>
