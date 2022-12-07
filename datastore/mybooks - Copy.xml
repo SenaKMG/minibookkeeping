@@ -1,0 +1,29 @@
+<Bookstore>
+  <Book>
+      <ID>200</ID>
+      <Title>KingofBafoons</Title>
+      <Genre>Drama/Genre>
+      <Description>BiggestIdiot</Description>
+      <ReadState>Reading</ReadState>
+      <FavoriteState>yes</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>203</ID>
+      <Title>PatilArc</Title>
+      <Genre>Fantasy</Genre>
+      <Description>1234567890</Description>
+      <ReadState>Reading</ReadState>
+      <FavoriteState>yes</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+  <Book>
+      <ID>204</ID>
+      <Title>God Killer</Title>
+      <Genre>Epic</Genre>
+      <Description>Very strong guy killing people</Description>
+      <ReadState>Reading</ReadState>
+      <FavoriteState>yes</FavoriteState>
+      <OptionalImage>1234567890</OptionalImage>
+  </Book>
+</Bookstore>

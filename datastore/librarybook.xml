@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<Bookstore>
+   <Book id="bk101">
+      <author>Gambardella, Matthew</author>
+      <Title>XML Developer's Guide</Title>
+      <Genre>Computer</Genre>
+      <price>44.95</price>
+      <publish_date>2000-10-01</publish_date>
+      <Description>An in-depth look at creating applications 
+      with XML.</Description>
+   </Book>
+   <Book id="bk102">
+      <author>Ralls, Kim</author>
+      <Title>Midnight Rain</Title>
+      <Genre>Fantasy</Genre>
+      <price>5.95</price>
+      <publish_date>2000-12-16</publish_date>
+      <Description>A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.</Description>
+   </Book>
+   <Book id="bk103">
+      <author>Corets, Eva</author>
+      <Title>Maeve Ascendant</Title>
+      <Genre>Fantasy</Genre>
+      <price>5.95</price>
+      <publish_date>2000-11-17</publish_date>
+      <Description>After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.</Description>
+   </Book>
+   <Book id="bk104">
+      <author>Corets, Eva</author>
+      <Title>Oberon's Legacy</Title>
+      <Genre>Fantasy</Genre>
+      <price>5.95</price>
+      <publish_date>2001-03-10</publish_date>
+      <Description>In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.</Description>
+   </Book>
+   <Book id="bk105">
+      <author>Corets, Eva</author>
+      <Title>The Sundered Grail</Title>
+      <Genre>Fantasy</Genre>
+      <price>5.95</price>
+      <publish_date>2001-09-10</publish_date>
+      <Description>The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon's Legacy.</Description>
+   </Book>
+   <Book id="bk106">
+      <author>Randall, Cynthia</author>
+      <Title>Lover Birds</Title>
+      <Genre>Romance</Genre>
+      <price>4.95</price>
+      <publish_date>2000-09-02</publish_date>
+      <Description>When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.</Description>
+   </Book>
+   <Book id="bk107">
+      <author>Thurman, Paula</author>
+      <Title>Splish Splash</Title>
+      <Genre>Romance</Genre>
+      <price>4.95</price>
+      <publish_date>2000-11-02</publish_date>
+      <Description>A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.</Description>
+   </Book>
+   <Book id="bk108">
+      <author>Knorr, Stefan</author>
+      <Title>Creepy Crawlies</Title>
+      <Genre>Horror</Genre>
+      <price>4.95</price>
+      <publish_date>2000-12-06</publish_date>
+      <Description>An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects.</Description>
+   </Book>
+   <Book id="bk109">
+      <author>Kress, Peter</author>
+      <Title>Paradox Lost</Title>
+      <Genre>Science Fiction</Genre>
+      <price>6.95</price>
+      <publish_date>2000-11-02</publish_date>
+      <Description>After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.</Description>
+   </Book>
+   <Book id="bk110">
+      <author>O'Brien, Tim</author>
+      <Title>Microsoft .NET: The Programming Bible</Title>
+      <Genre>Computer</Genre>
+      <price>36.95</price>
+      <publish_date>2000-12-09</publish_date>
+      <Description>Microsoft's .NET initiative is explored in 
+      detail in this deep programmer's reference.</Description>
+   </Book>
+   <Book id="bk111">
+      <author>O'Brien, Tim</author>
+      <Title>MSXML3: A Comprehensive Guide</Title>
+      <Genre>Computer</Genre>
+      <price>36.95</price>
+      <publish_date>2000-12-01</publish_date>
+      <Description>The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.</Description>
+   </Book>
+   <Book id="bk112">
+      <author>Galos, Mike</author>
+      <Title>Visual Studio 7: A Comprehensive Guide</Title>
+      <Genre>Computer</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.</Description>
+   </Book>
+   <Book id="bk113">
+      <author>Galos, Mike</author>
+      <Title>King Lear</Title>
+      <Genre>Tragedy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>based on the mythological Leir of Britain. King Lear, in preparation for his old age, divides his power and land between two of his daughters. He becomes destitute and insane and a proscribed crux of political machinations.</Description>
+   </Book>
+   <Book id="bk114">
+      <author>Galos, Mike</author>
+      <Title>Faust</Title>
+      <Genre>Fantasy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description> Mephistopheles (Satan) makes a bet with God: he says that he can lure God's favourite human being (Faust), who is striving to learn everything that can be known, away from righteous pursuits.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Nostromo: A Tale of the Seaboard</Title>
+      <Genre>Novel</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Charles Gould is tired of the political instability in Costaguana and its concomitant corruption, and uses his wealth to support Ribiera's government, which he believes will finally bring stability to the country after years of misrule and tyranny by self-serving dictators.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Crime and Punishment</Title>
+      <Genre>Fiction</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who plans to kill an unscrupulous pawnbroker, an old woman who stores money and valuable objects in her flat</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>The Red and the Black</Title>
+      <Genre>Horror</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>He comes from a poor family[1] and fails to understand much about the ways of the world he sets out to conquer</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>The Canterbury Tales</Title>
+      <Genre>Fantasy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>The Canterbury Tales is a collection of stories built around a frame tale, a common and already long established genre in this period.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title></Title>
+      <Genre></Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description></Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>The Decameron</Title>
+      <Genre>Comedy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Tales of wit, practical jokes, and life lessons contribute to the mosaic.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Book of Job</Title>
+      <Genre>Fiction</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description> Job as a righteous man, blessed with wealth, sons, and daughters, who lives in the land of Uz. The scene then shifts to Heaven, where God asks Satan for his opinion of Job's piety</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Mahabharata</Title>
+      <Genre>Poetry</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Mahābhārata is the longest epic poem known and has been described as "the longest poem ever written"</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Zeno's Conscience</Title>
+      <Genre>Modern</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>The novel is presented as a diary written by Zeno, published by his doctor (who claims that it is full of lies). The doctor has left a little note in the beginning, saying he had Zeno write an autobiography to help him in his psychoanalysis</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>The Idiot</Title>
+      <Genre>Comedy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>The novel has an awkward structure, and many critics have commented on its seemingly chaotic organization</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>The Death of Ivan Ilyich</Title>
+      <Genre>Philosophy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Ivan Ilyich lives a carefree life that is "most simple and most ordinary and therefore most terrible". Like everyone he knows, he spends his life climbing the social ladder.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>One Hundred Years of Solitude</Title>
+      <Genre>Fiction</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>ne Hundred Years of Solitude is the story of seven generations of the Buendía Family in the town of Macondo. The founding patriarch of Macondo, José Arcadio Buendía, and Úrsula Iguarán, his wife (and first cousin)</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Njál's Saga</Title>
+      <Genre>Fantasy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Excepteur sint</Title>
+      <Genre>Mystery</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>War and Peace</Title>
+      <Genre>Autobiography</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>The novel is set 60 years before Tolstoy's day, but he had spoken with people who lived through the 1812 French invasion of Russia.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Reverend Insanity</Title>
+      <Genre>Epic Fanatasy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>An old story about a time traveler who was constantly being reborn. An eccentric world that grows, cultivates, and uses Gu. </Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Lord of Mysteries</Title>
+      <Genre>Epic Fantasy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>The Tarot Club is a Newly Founded Secret Organization of Beyonders created by Klein Moretti</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>I Shall Seal the Heavens</Title>
+      <Genre>Epic Fantasy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>What I want, the Heavens shall not lack!” “What I don't want, had better not exist under the Heavens!”</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>The Trial</Title>
+      <Genre>Dystopian</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>On the morning of his thirtieth birthday, Josef K., the chief cashier of a bank, is unexpectedly arrested by two unidentified agents from an unspecified agency for an unspecified crime</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Odyssey</Title>
+      <Genre>Epic poetry</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Odysseus (also known by the Latin variant Ulysses), king of Ithaca, has still not returned because he angered Poseidon, the god of the sea. </Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Medea</Title>
+      <Genre>Tragedy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>Medea is centered on Medea's calculated desire for revenge against her unfaithful husband</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>A Will Eternal</Title>
+      <Genre>Epic Fantasy</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description>ai Xiaochun, an endearing but exasperating young man who is driven primarily by his fear of death and desire to live forever, but who deeply values friendship and family.</Description>
+   </Book>
+   <Book id="bk11">
+      <author>Galos, Mike</author>
+      <Title>Pride and Prejudice</Title>
+      <Genre>Fiction</Genre>
+      <price>49.95</price>
+      <publish_date>2001-04-16</publish_date>
+      <Description> Mrs. Bennet's greatest desire is to marry off her five daughters in order to secure their futures. The arrival of Mr. Bingley, a rich bachelor who rents the neighbouring Netherfield estate, gives her hope that one of her daughters might contract an advantageous marriage</Description>
+   </Book>
+</Bookstore>
