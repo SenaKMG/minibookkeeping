@@ -192,14 +192,29 @@
                         $itemstock_doc->load("datastore/mybooks.xml");
                         $items = $itemstock_doc->documentElement;
 
-                        foreach (($itemstock_doc->childNodes)[0]->childNodes as $node)
+                        $books = array();
+                        foreach (($itemstock_doc->childNodes)[0]->childNodes as $node){
+                            $books[] = array(
+                                'id'             => (string)($node->GetElementsByTagname("ID"))[0]->nodeValue,
+                                'title'          => (string)($node->GetElementsByTagname("Title"))[0]->nodeValue,
+                                'genre'          => (string)($node->GetElementsByTagname("Genre"))[0]->nodeValue,
+                                'description'    => (string)($node->GetElementsByTagname("Description"))[0]->nodeValue,
+                                'readstatus'     => (string)($node->GetElementsByTagname("ReadState"))[0]->nodeValue,
+                                'favstatus'      => (string)($node->GetElementsByTagname("FavoriteState"))[0]->nodeValue
+                               );
+                        }
+
+                        array_multisort(array_column($books, 'genre'), SORT_ASC, $books);
+
+                        foreach ($books as $node)
                             {
-                                $BID = ($node->GetElementsByTagname("ID"))[0]->nodeValue;
-                                $BName = ($node->GetElementsByTagname("Title"))[0]->nodeValue;
-                                $BGenre = ($node->GetElementsByTagname("Genre"))[0]->nodeValue;
-                                $BDescription = ($node->GetElementsByTagname("Description"))[0]->nodeValue;
-                                $BReadStatus = ($node->GetElementsByTagname("ReadState"))[0]->nodeValue;
-                                $BFavStatus = ($node->GetElementsByTagname("FavoriteState"))[0]->nodeValue;
+                                $BID = $node['id'];
+                                $BName = $node['title'];
+                                $BGenre = $node['genre'];
+                                $BDescription = $node['description'];
+                                $BReadStatus = $node['readstatus'];
+                                $BFavStatus = $node['favstatus'];
+
 
                                 if ( $BFavStatus == "yes"){
 

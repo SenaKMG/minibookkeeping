@@ -52,14 +52,12 @@
                 </div>
                 <form action="editBook.php?bookid=<?php echo $BookID; ?>" method="post" class="needs-validation">
                     <div class="mb-3"><label class="form-label" for="subject"  >Book Status</label><select class="form-select" id="subject" name="book_readstatus" value="<?php echo $BookReadStatus; ?>">
-                            <option selected disabled hidden><?php echo $BookReadStatus; ?></option>
-                            <option value="Read">Read</option>
+                            <option selected value="Read">Read</option>
                             <option value="Reading">Reading</option>
                             <option value="ToBeRead">To read</option>
                         </select></div>
                     <div class="mb-3"><label class="form-label" for="subject">Book favorite</label><select class="form-select" id="subject" name="book_favstatus" value="<?php echo $BookFavStatus; ?>">
-                            <option selected disabled hidden><?php echo $BookFavStatus; ?></option>
-                            <option value="yes">Yes</option>
+                            <option selected value="yes">Yes</option>
                             <option value="no">No</option>
                         </select></div>
                     <div class="mb-3">
